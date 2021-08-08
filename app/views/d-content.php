@@ -26,18 +26,15 @@
                 <h4>128,391</h4>
             </div>
         </div>
-        <div class="col-4 box flex-container">
-            <i class="far fa-circle"></i>
-            <div class="flex-col">
-                <p>Returned</p>
-                <h4>21,824</h4>
-            </div>
+        <div class="col-4 box flex-col">
+            <p>Web Developer Skills</p>
+            <h4>4 months</h4>
         </div>
     </div>
     <div class="dashboard-grid-2col">
         <div class="col-1 panel-headings-left">
-            <h3>test</h3>
-            <p>css code: .panel-headings-left h3</p>
+            <h3>JAVASCRIPT EXAMPLE - GREETINGS</h3>
+            <p id="pasisveikinimas"></p>
         </div>
         <div class="col-2 panel-headings-overflow">
             <h3>test</h3>

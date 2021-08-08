@@ -1,13 +1,13 @@
+
+
 //change dashboard color
 const setTheme = theme => document.documentElement.className = theme;
 
 
 //Get the button:
-mybutton = document.getElementById("myBtn");
-
+var mybutton = document.getElementById("myBtn");
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
@@ -54,45 +54,64 @@ function allowDrop(ev) {
   }
   /* END OF BOX-ACCORDION */
   
-  /* START OF SIDEBAR ACCORDION */
-  var acc = document.getElementsByClassName("accordion");
-  var i;
+/* START OF SIDEBAR ACCORDION */
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+/* END OF SIDEBAR ACCORDION */
   
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.maxHeight) {
-        panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
-      } 
-    });
-  }
-  /* END OF SIDEBAR ACCORDION */
-  
-  /*Menu button sidenav */
-  function openNav() {
-    document.getElementById("menu").style.width = "210px";
-  }
-  function closeNav() {
-    document.getElementById("menu").style.width = "0";
-  }
+/*Menu button sidenav */
+function openNav() {
+  document.getElementById("menu").style.width = "210px";
+}
+function closeNav() {
+  document.getElementById("menu").style.width = "0";
+}
   
   /* When the user clicks on the button, 
   toggle between hiding and showing the dropdown content */
-  function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
     
     // Close the dropdown if the user clicks outside of it
-    window.onclick = function(e) {
-      if (!e.target.matches('.dropbtn')) {
-      var myDropdown = document.getElementById("myDropdown");
-        if (myDropdown.classList.contains('show')) {
-          myDropdown.classList.remove('show');
-        }
-      }
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
     }
-    
+  }
+}
+  
+//pasisveikinimas
+
+const today = new Date();
+const time = today.getHours();
+
+if (time >= 0 && time < 6){
+  document.getElementById("pasisveikinimas").innerHTML = "Labas,db naktis!";
+} else if (time >= 6 && time < 12) {
+ document.getElementById("pasisveikinimas").innerHTML = "Labas rytas !" +
+ "<br>Tai, ką mes darome šiandien ir dabar, lems tai, ką darysim rytoj.<br>Alexandra Stoddard.";
+} else if (time >= 12 && time < 18){
+  document.getElementById("pasisveikinimas").innerHTML = "Laba diena !" +
+  "<br>Tai, ką mes darome šiandien ir dabar, lems tai, ką darysim rytoj.<br>Alexandra Stoddard.";
+} else if (time >= 18 && time < 23) {
+   document.getElementById("pasisveikinimas").innerHTML = "Labas vakaras !" + 
+   "<br>Tai, ką mes darome šiandien ir dabar, lems tai, ką darysim rytoj.<br>Alexandra Stoddard.";
+} else {
+  document.getElementById("pasisveikinimas").innerHTML = "Labas,db naktis !";
+}
     
