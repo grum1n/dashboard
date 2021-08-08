@@ -581,6 +581,30 @@ footer {
 footer a{color: var(--white);}
 footer a:hover{color: var(--gray-c2);}
 
+
+/*Button to top*/
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99; 
+    font-family: var(--font-roboto);
+    font-size: 2rem;
+    border:  2px solid var(--white);
+    outline: none; 
+    background-color: var(--gray-r2); 
+    color: var(--white);
+    cursor: pointer; 
+    padding: 6px 15px; 
+    border-radius: 50%; 
+} 
+#myBtn:hover {
+    background-color: var(--teal-r1);
+    color: var(--white-c2);
+    border: 2px solid var(--white-c2);
+}
+
 /*MEDIA SCREEN!!!!*/
 /*MEDIA SCREEN!!!!*/
 /*MEDIA SCREEN!!!!*/
