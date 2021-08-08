@@ -31,7 +31,7 @@
             <div class="dropdown">
                 <img onclick="myFunction()" class="dropbtn" src="app/images/darbuotojas.jpg" alt="Darbuotojas">
                 <div id="myDropdown" class="dropdown-content">
-                <a href="#"><i class="fas fa-user"></i> Profile</a>
+                <a href="d-pages.php?page=user-profile"><i class="fas fa-user"></i> Profile</a>
                 <a href="#"><i class="fas fa-cog"></i> Settings</a>
                 <a href="#"><i class="fas fa-sign-out-alt"></i> Sign out</a>
                 </div>

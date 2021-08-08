@@ -4,8 +4,8 @@
         <li>
             <button class="accordion"><i class="fas fa-user-cog"></i></i> Skills</button>
                 <div class="panel">
-                    <a href="">Link</a>
-                    <a href="">Link</a>
+                    <a href="d-pages.php?page=github-skills">Github</a>
+                    <a href="d-pages.php?page=javascript-skills">JavaScript</a>
                 </div>
         </li>
         <li>
