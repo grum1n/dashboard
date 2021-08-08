@@ -25,7 +25,7 @@
         <li>
             <button class="accordion"><i class="far fa-chart-bar"></i> Charts </button>
                 <div class="panel">
-                    <a href="">Link</a>
+                    <a href="d-pages.php?page=d-column-charts">Column Charts</a>
                 </div>
         </li>
         <li>
