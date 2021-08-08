@@ -650,6 +650,39 @@ footer a:hover{color: var(--gray-c2);}
     border: 2px solid var(--white-c2);
 }
 
+/*Chart -container*/
+.panel-headings-left .chart-box {
+    padding: 10px;
+    background-color: var(--white-c2);
+}
+.panel-headings-left .chart-box input[type=number]{
+    padding: 5px 5px;
+    width: 200px;
+    color:var(--teal-dark);
+    background-color: var(--gray-r2-x);
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    /* border: 1px solid var(--gray-r2-x); */
+    border-radius: 5px;
+}
+
+.panel-headings-left .chart-box input[type=number]:focus { 
+    outline: none !important;
+    border-color: var(--teal-r2);
+    box-shadow: 0 0 5px var(--teal-r2);
+}
+.panel-headings-left .chart-box input[type=submit] {
+    padding: 7px;
+    width: 100px;
+    color:var(--teal-c6);
+    background-color: var(--teal-c3);
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+}
 /*MEDIA SCREEN!!!!*/
 /*MEDIA SCREEN!!!!*/
 /*MEDIA SCREEN!!!!*/
