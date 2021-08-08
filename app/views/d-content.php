@@ -5,11 +5,12 @@
     </div>
     <div class="dashboard-grid">
         <div class="col-1 box flex-container">
-            <i class="far fa-circle"></i>
-            <div class="flex-col">
-                <p>New Visits</p>
-                <h4>57,820</h4>
-            </div>
+            <button class="theme-btn-or orange" onclick="setTheme('orange')" title="Orange mode">
+               Dashboard orange 
+            </button>
+            <button class="theme-btn-gr green" onclick="setTheme('green')" title="Green mode">
+               Dashboard green
+            </button>
         </div>
         <div class="col-2 box flex-container">
             <i class="far fa-circle"></i>

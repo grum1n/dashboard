@@ -1,3 +1,7 @@
+//change dashboard color
+const setTheme = theme => document.documentElement.className = theme;
+
+
 //Get the button:
 mybutton = document.getElementById("myBtn");
 

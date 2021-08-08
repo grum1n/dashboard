@@ -29,7 +29,27 @@
     --font-roboto: 'Roboto', sans-serif; 
     --bg-url: url("../../app/images/bgx.png"); 
 }
-
+:root.orange {
+    --gray-r1: rgba(59, 33, 4, 0.65);
+    --gray-r1-y: rgba(207, 108, 27, 0.15);
+    --gray-r2: rgba(0, 20, 26, 0.8);
+    --gray-r3: rgba(0, 13, 26, 0.9);
+    --teal-dark:rgba(44, 22, 1, 0.3);
+    --teal-c1:rgba(252, 101, 0, 0.562);
+    --teal-c2:#79551c;/*nebloga efekta prideada kai nustatau orange*/
+    --teal-c3:#d15e11;
+    --teal-c4: #e26009;
+    --teal-c5: #df8115;
+    --teal-r1: rgba(184, 152, 123, 0.6);
+    --teal-r2:rgba(158, 103, 32, 0.9);
+    --teal-r3: rgba(238, 125, 20, 0.959);
+    --teal-r4: rgba(158, 103, 32, 0.2);
+    --white: #ffffff;
+    --white-c2: #c4c4c4;
+    --teal-c5: #1a0a00;
+    --font-roboto: 'Roboto', sans-serif; 
+    --bg-url: url("../../app/images/bgx-o.png"); 
+}
 html {
     font-family: var(--font-r);
     font-size: 16px;
@@ -285,6 +305,31 @@ header img{
 }
 .menu-button a{color: var(--white);font-size: 1.5rem;cursor: pointer;}
 .menu-button a:hover{color: var(--teal-c4);font-size: 1.5rem;}
+
+/*header bg button change bg color*/
+.theme-btn-or {
+    margin: 0 5px;
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff7000;
+    color: var(--white);
+}
+.theme-btn-gr {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: #008080;
+    color: var(--white);
+}
+.theme-btn-or:hover, .theme-btn-gr:hover {
+    color: var(--teal-c5);
+}
 
 
 /*MAIN*/
