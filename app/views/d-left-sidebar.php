@@ -37,7 +37,7 @@
         <li>
             <button class="accordion"><i class="fas fa-link"></i> Links</button>
                 <div class="panel">
-                    <a href="">Link</a>
+                    <a href="d-pages.php?page=d-links">WEB Links</a>
                 </div>
         </li>
     </ul>
