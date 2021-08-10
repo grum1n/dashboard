@@ -128,7 +128,7 @@ document.getElementById("js-cwl4").innerHTML = number;
                             i++;
                             number += "<br> number : " + i; 
                         }
-                    document.getElementById("js-cwl3").innerHTML = "shows number from 6 to 10 : ";
+                    document.getElementById("js-cwl3").innerHTML = "Shows number from 6 to 10 : ";
                     document.getElementById("js-cwl4").innerHTML = number;
                     </script>
                     <hr>
