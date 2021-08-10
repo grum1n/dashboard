@@ -65,6 +65,10 @@ a {text-decoration: none;}
 .text-black {color:var(--black);}
 .text-white {color:var(--white);}
 
+p.text-italic {margin:0;font-style: italic;}
+p > a {color: var(--teal-c5);}
+p > a:hover {color: var(--white-c2);}
+
 .bg-red {background-color: var(--red);}
 
 .col-1 { grid-area: col-1;}
