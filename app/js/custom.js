@@ -1,5 +1,4 @@
 
-
 //change dashboard color
 const setTheme = theme => document.documentElement.className = theme;
 
@@ -114,4 +113,5 @@ if (time >= 0 && time < 6){
 } else {
   document.getElementById("pasisveikinimas").innerHTML = "Labas,db naktis !";
 }
+
     
