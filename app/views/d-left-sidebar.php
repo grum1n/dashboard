@@ -29,6 +29,12 @@
                 </div>
         </li>
         <li>
+            <button class="accordion"><i class="fas fa-table"></i> Tables </button>
+                <div class="panel">
+                    <a href="d-pages.php?page=basic-table">link</a>
+                </div>
+        </li>
+        <li>
             <button class="accordion"><i class="far fa-images"></i> Images</button>
                 <div class="panel">
                     <a href="">Link</a>

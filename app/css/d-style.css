@@ -64,6 +64,8 @@ a {text-decoration: none;}
 
 .text-black {color:var(--black);}
 .text-white {color:var(--white);}
+.text-greenyellow{color:greenyellow;}
+.text-red{color: red;}
 
 p.text-italic {margin:0;font-style: italic;}
 p > a {color: var(--teal-c5);}
@@ -687,6 +689,39 @@ footer a:hover{color: var(--gray-c2);}
     border: none;
     border-radius: 3px;
 }
+/*Tables*/
+.a-table {padding: 10px 15px;}
+.a-table div:first-child{background-color: var(--teal-r1);}
+.table-grid-border {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "col-1 col-2 col-3 col-4"
+}
+.table-grid-border span{
+    border: 1px solid var(--white-c2);
+    padding: 10px 15px;
+    text-align: right;
+}
+.table-grid-border span:first-child{text-align: left;}
+.table-grid-border:hover {background-color: var(--teal-r1);}
+.table-grid {
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "col-1 col-2 col-3 col-4"
+}
+.table-grid-border-bottom{border-bottom: 1px solid var(--white-c2);}
+.table-grid span{
+    width: 100%;
+    padding: 10px 15px;
+    text-align: right;
+}
+.table-grid span:first-child{text-align: left;}
+.table-grid:hover {background-color: var(--teal-r1);}
 /*MEDIA SCREEN!!!!*/
 /*MEDIA SCREEN!!!!*/
 /*MEDIA SCREEN!!!!*/
