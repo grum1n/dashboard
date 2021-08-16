@@ -5,7 +5,7 @@
     </div>
     <div class="dashboard-grid-2col">
         <div class="col-1 panel-headings-left">
-            <h3>test</h3>
+            <h3>Table A</h3>
             <div class="flex-col a-table table-grid-border1">
                 <div class="table-grid-border">
                     <span class="col-1">Browser</span>
@@ -34,7 +34,7 @@
             </div>
         </div>
         <div class="col-2 panel-headings-left">
-            <h3>test</h3>
+            <h3>Table B</h3>
             <div class="flex-col a-table">
                 <div class="table-grid table-grid-border-bottom">
                     <span class="col-1">Browser</span>
