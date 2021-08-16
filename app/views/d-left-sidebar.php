@@ -31,7 +31,7 @@
         <li>
             <button class="accordion"><i class="fas fa-table"></i> Tables </button>
                 <div class="panel">
-                    <a href="d-pages.php?page=basic-table">link</a>
+                    <a href="d-pages.php?page=basic-table">Basic Tables</a>
                 </div>
         </li>
         <li>
