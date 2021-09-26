@@ -54,3 +54,5 @@ rgba(32,158,145, 0.6);
 <i class="fas fa-cog"></i> settings
 <i class="fas fa-sign-out-alt"></i> sign out
 <i class="far fa-images"></i> images
+<i class="fab fa-btc"></i>
+<i class="fas fa-coins"></i>

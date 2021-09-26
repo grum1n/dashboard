@@ -85,6 +85,8 @@ p > a:hover {color: var(--white-c2);}
 .col-10 {grid-area: col-10;}
 .col-11 {grid-area: col-11;}
 .col-12 {grid-area: col-12;}
+.col-13 {grid-area: col-13;}
+.col-14 {grid-area: col-14;}
 
 
 .flex-container {display: flex;}
@@ -722,6 +724,24 @@ footer a:hover{color: var(--gray-c2);}
 }
 .table-grid span:first-child{text-align: left;}
 .table-grid:hover {background-color: var(--teal-r1);}
+
+/*Page finance*/
+.finance-table-grid {
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "col-1 col-2 col-3"
+}
+.finance-table-grid span{
+    width: 100%;
+    padding: 10px 15px;
+    text-align: right;
+}
+.finance-table-grid span:first-child{text-align: left;}
+.finance-table-grid:hover {background-color: var(--teal-r1);}
+
 /*MEDIA SCREEN!!!!*/
 /*MEDIA SCREEN!!!!*/
 /*MEDIA SCREEN!!!!*/

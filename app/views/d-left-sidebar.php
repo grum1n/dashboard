@@ -6,6 +6,7 @@
                 <div class="panel">
                     <a href="d-pages.php?page=github-skills">Github</a>
                     <a href="d-pages.php?page=javascript-skills">JavaScript</a>
+                    <a href="d-pages.php?page=react-skills">React</a>
                 </div>
         </li>
         <li>
@@ -44,6 +45,12 @@
             <button class="accordion"><i class="fas fa-link"></i> Links</button>
                 <div class="panel">
                     <a href="d-pages.php?page=d-links">WEB Links</a>
+                </div>
+        </li>
+        <li>
+            <button class="accordion"><i class="fas fa-coins"></i> Finance</button>
+                <div class="panel">
+                    <a href="d-finance.php">Crypto invest</a>
                 </div>
         </li>
     </ul>

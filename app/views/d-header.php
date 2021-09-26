@@ -4,7 +4,8 @@
         <li class="col-2">
             <div id="menu" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Pages</a>
+                <a href="d-index.php">Pages</a>
+                <a href="d-pages.php?page=react-skills">React</a>
                 </div>
                 <div class="menu-button">
                 <a href="javascript:void(0)" onclick="openNav()"><i class="fa fa-bars"></i></a>
