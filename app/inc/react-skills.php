@@ -7,7 +7,23 @@
         <div class="col-1 panel-headings-left">
             <h3>React Getting Started</h3>
             <p>React is Javascript library for building user interfaces.</p>
-            
+            <p>Install Node.js</p>
+            <p>1. Command Prompt</p>
+            <p>2. npm --version (to check node verion)</p>
+            <p>3. npx create-react-app react-task-tracker (install app files)</p>
+            <p>4. cd react-task-tracker ( go to react-task-tracker folder)</p>
+            <p>5. code . (means open vs code editor)</p>
+            <p>6. npm start (started dev server  , lockalhost:3000)</p>
+            <p>7. public/index.html ( is the single page that is loaded,If you open it directly in the browser, you will see an empty page)</p>
+            <p>8. src/index.js (</p>
+            <p>9. in index.html change title ("Task Tracker", changes browser tab name)</p>
+            <p>10. go  in to src/app.js (this is the root app component)</p>
+            <p>11. delete content from section div=app,and change it to hello word. (look at locakhost:3000)</p>
+            <p>12. delete top (import logo from './logo.svg';import './App.css';)</p>
+            <p>13. delete files : App.css, App.test.js, logo.svg, setupTests.js</p>
+            <p>14. all we can put in div classname='App'</p>
+            <p> ** npm i react-icons</p>
+
         </div>
         <div class="col-2 panel-headings-left">
             <h3>React Tutorials</h3>
