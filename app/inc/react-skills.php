@@ -9,7 +9,7 @@
             <p>React is Javascript library for building user interfaces.</p>
             <p>Install Node.js</p>
             <p>1. Command Prompt or  git bash </p>
-            <p>2.cd floderName (find folder where be installed react)</p>
+            <p>2.cd folderName (find folder where be installed react)</p>
             <p>3. npm --version (to check node verion)</p>
             <p>4. npx create-react-app react-task-tracker (install app files)</p>
             <p>5. cd react-task-tracker ( go to react-task-tracker folder)</p>
