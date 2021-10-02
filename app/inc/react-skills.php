@@ -76,12 +76,36 @@
     <div class="dashboard-grid-2col">
         <div class="col-1 panel-headings-left">
             <h3>LEARN REACT</h3>
-            <p>text</p>
-            <p class="codetext">codetext</p>
+            <p class="codetext">import React from 'react';</p>
+            <p>This creates an object named React which contains methods necessary to use the React library.</p>
+            <p class="codetext">import ReactDOM from 'react-dom';</p>
+            <p>This line of code is very similar to line 1.
+               Both import JavaScript objects. In both lines, the imported object contains React-related methods.</p>
+            <p>The methods imported from 'react-dom' are meant for interacting with the DOM. You are already familiar with one of them: ReactDOM.render()</p>
+            <p>The methods imported from 'react' don’t deal with the DOM at all. They don’t engage directly with anything that isn’t part of React.</p>
+            <p>To clarify: the DOM is used in React applications, but it isn’t part of React. After all, the DOM is also used in countless non-React applications. Methods imported from 'react' are only for pure React purposes, such as creating components or writing JSX elements.</p>
+            <p class="codetext">class MyComponentClass extends React.Component {...}</p>
+            <p>Here’s another fact about components: we can use a JavaScript class to define a new React component. We can also define components with JavaScript functions, but we’ll focus on class components first</p>
+            <p>All class components will have some methods and properties in common. Rather than rewriting those same properties over and over again every time, we extend the Component class from the React library. This way, we can use code that we import from the React library, without having to write it over and over again ourselves.</p>
+            <p>After we define our class component, we can use it to render as many instances of that component as we want.</p>
+            <p>React.Component is a JavaScript class. To create your own component class, you must subclass React.Component. You can do this by using the syntax:</p>
+            <p>class YourComponentNameGoesHere extends React.Component {}</p>
+            <p>You know that you are declaring a new component class, which is like a factory for building React components. You know that React.Component is a class, which you must subclass in order to create a component class of your own. You also know that React.Component is a property on the object which was returned by import React from 'react' on line 1.</p>
         </div>
         <div class="col-2 panel-headings-left">
-            <h3>REACT TEST</h3>
-            <p>TEXT</p>
+            <h3>REACT EXAMPLE</h3>
+            <pre>
+            <p class="codetext">
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+class MyComponentClass extends React.Component {
+  render() {
+    return Hello world;
+  }
+}
+            </p>
+            </pre>
         </div>
     </div>
 </div> 

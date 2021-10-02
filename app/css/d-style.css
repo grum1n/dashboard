@@ -500,6 +500,7 @@ main li:first-child a:hover, main li:first-child a:active{
 }
 .dashboard-grid-2col .panel-headings-left .codetext{
     background-color: var(--gray-r3);
+    margin: 5px;
 }
 /* START OF box ACCORDION */
 .box-accordion {
