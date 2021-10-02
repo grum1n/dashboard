@@ -498,6 +498,9 @@ main li:first-child a:hover, main li:first-child a:active{
     grid-template-areas: 
     "col-1 col-2"
 }
+.dashboard-grid-2col .panel-headings-left .codetext{
+    background-color: var(--gray-r3);
+}
 /* START OF box ACCORDION */
 .box-accordion {
     margin: 25px 0 0;

@@ -48,7 +48,7 @@
             <p>How does React Work? React creates a VIRTUAL DOM in memory.</p>
             <p>React only changes what needs to be changed!</p>
             <p>React finds out what changes have been made, and changes only what needs to be changed.</p>
-            <p>* <a href="https://www.youtube.com/watch?v=aQhAmW_I4II" targer="_blank">How to upload react Projectto Cpanel</a></p>
+            <p>* <a href="https://www.youtube.com/watch?v=aQhAmW_I4II" targer="_blank">How to upload react Project to Cpanel</a></p>
             <p>* <a href="https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=742s" target="_blank">React JS Crash Course 2021</a></p>
             <p>* <a href="https://www.w3schools.com/react/react_intro.asp"  target="_blank">React w3school</a></p>
         </div>
@@ -71,6 +71,17 @@
             <p>* CodePen</p>
             <p>* CodeSandbox</p>
             <p>* Stackblitz</p>
+        </div>
+    </div>
+    <div class="dashboard-grid-2col">
+        <div class="col-1 panel-headings-left">
+            <h3>LEARN REACT</h3>
+            <p>text</p>
+            <p class="codetext">codetext</p>
+        </div>
+        <div class="col-2 panel-headings-left">
+            <h3>REACT TEST</h3>
+            <p>TEXT</p>
         </div>
     </div>
 </div> 
